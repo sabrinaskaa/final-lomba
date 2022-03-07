@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>artventure</title>
+
+    <!-- ==========     CSS LINK     ========== -->
+    <link rel="stylesheet" href="./css/mainstyle.css">
+    <link rel="stylesheet" href="./css/include/style.css">
+    <link rel="stylesheet" href="./css/include/navbar.css">
+    <link rel="stylesheet" href="./css/include/responsivestyle.css">
+
+    <!-- ==========     FONTS     ========== -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    
+    
+</head>
+<body>
+    <!-- ==========     HEADER AREA     ========== -->
+    <header class="l-header scroll-header" id="header">
+        <nav class="nav bd-container header-reveal">
+            <a href="#" class="nav__logo">artventure</a>
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list" id="nav-list">
+                    <li class="nav__item" id="nav-home"><a href="#" id="link-home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item" id="nav-about"><a href="./views/gallery.html" id="link-gallery" class="nav__link">Gallery</a></li>
+                    <li class="nav__item" id="nav-shop"><a href="./views/shop.html" id="link-shop" class="nav__link">Shop</a></li>
+                    <li class="nav__item" id="nav-team"><a href="./views/our-team.html" id="link-team" class="nav__link">Our team</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ==========     MAIN AREA     ========== -->
+    <main>
+        <section class="home jumbotron-reveal">
+            <div class="home">
+                <div class="container home-container">
+                    <div class="row home-row home-row-mobile">
+                        <img class="img-home-j" src="./assets/image/semar.png" alt="">
+                    </div>
+
+                    <div class="row home-row r-text-home">
+                        <div class="text-home-w">
+                            <span class="text-home-j">Nature always</span>
+                            <span class="text-home-j">wears the</span>
+                            <span class="text-home-j">colors of the</span>
+                            <span class="text-home-j">spirit.</span>
+                            
+                            <a href="#maps" class="link__btn-home-j">
+                                <button class="btn-home-j">Go to know</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row home-row r-img-home">
+                        <img class="img-home-j" src="./assets/image/semar.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="maps b-maps js-scroll slide-left" id="maps">
+            <div class="maps">
+                <div class="container maps-container">
+                    <div class="row maps-row">
+                        <div class="content-maps maps-content">
+                            <img src="./assets/image/maps.png" class="maps-peta" alt="">
+                        </div>
+                        <div class="text-wrapper-maps">
+                            <div class="blank-maps"></div>
+                            <div class="text-content-maps">
+                                <div class="content-maps title-maps">
+                                    <span class="maps-title">
+                                        <span class="maps-title-1">Maps of</span>
+                                        <span class="maps-title-2"> Java</span>
+                                    </span>
+                                </div>
+                                <div class="content-maps paragraph-maps">
+                                    <p class="maps-paragraph">
+                                        Jawa adalah sebuah pulau di Indonesia dan merupakan pulau terluas 
+                                        ke-13 di dunia. Jawa memiliki luas sekitar 138.793,6 km2. Sungai 
+                                        yang terpanjang ialah Bengawan Solo, yaitu sepanjang 600 km. Terdapat 
+                                        tiga puluh delapan gunung yang terbentang dari timur ke barat pulau ini, 
+                                        yang kesemuanya pada waktu tertentu pernah menjadi gunung berapi aktif. 
+                                        Suhu rata-rata sepanjang tahun adalah antara 22 °C sampai 29 °C, dengan 
+                                        kelembapan rata-rata 75%. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="biography b-biography js-scroll slide-left">
+            <div class="biography">
+                <div class="container biography-container">
+                    <div class="row slider biography-row">
+
+                        <div class="slider-content-1 slider-content-1--visible">
+                            <div class="b-row-left">
+                                <div class="content-biography title-biography">
+                                    <span class="biography-subtitle">GET TO KNOW</span>
+                                    <span class="biography-title">
+                                        <span class="biography-title">Central Java</span>
+                                    </span>
+                                </div>
+                                <div class="content-biography pakaian-content">
+                                    <img src="./assets/image/Jawa-tengah.png" class="biography-pakaian-hid" alt="">
+                                </div>
+                                <div class="content-biography paragraph-content">
+                                    <p class="biography-paragraph">
+                                        Jawa Tengah adalah sebuah provinsi Indonesia yang terletak di bagian tengah Pulau Jawa dengan ibukota Semarang.
+                                        Jawa Tengah dikenal sebagai "jantung" budaya Jawa. Karena memiliki banyak budaya yang membuat provinsi Jawa Tengah 
+                                        tampak menakjubkan.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="b-row-right">
+                                <div class="content-biography pakaian-content">
+                                    <img src="./assets/image/Jawa-tengah.png" class="biography-pakaian" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-content-1">
+                            <div class="b-row-left">
+                                <div class="content-biography title-biography">
+                                    <span class="biography-subtitle">GET TO KNOW</span>
+                                    <span class="biography-title">
+                                        <span class="biography-title">East Java</span>
+                                    </span>
+                                </div>
+                                
+                                <div class="content-biography pakaian-content">
+                                    <img src="./assets/image/Jawa-timur.png" class="biography-pakaian-hid" alt="">
+                                </div>
+
+                                <div class="content-biography paragraph-content">
+                                    <p class="biography-paragraph">
+                                        Jawa Timur adalah sebuah provinsi di anggota timur Pulau Jawa, Indonesia. Ibukota terletak di Surabaya. 
+                                        Jawa Timur memiliki wilayah terluas di selang 6 provinsi di Pulau Jawa, dan memiliki jumlah penduduk 
+                                        terbanyak kedua di Indonesia setelah Jawa Barat.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="b-row-right">
+                                <div class="content-biography pakaian-content">
+                                    <img src="./assets/image/Jawa-timur.png" class="biography-pakaian" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-content-1">
+                            <div class="b-row-left">
+                                <div class="content-biography title-biography">
+                                    <span class="biography-subtitle">GET TO KNOW</span>
+                                    <span class="biography-title">
+                                        <span class="biography-title">Jakarta</span>
+                                    </span>
+                                </div>
+                                <div class="b-row-right">
+                                    <div class="content-biography pakaian-content">
+                                        <img src="./assets/image/Jakarta.png" class="biography-pakaian-hid" alt="">
+                                    </div>
+                                </div>
+                                <div class="content-biography paragraph-content">
+                                    <p class="biography-paragraph">
+                                        Jakarta atau DKI Jakarta adalah ibu kota negara dan kota terbesar di Indonesia. Sebagai pusat bisnis, politik, 
+                                        dan kebudayaan, Jakarta merupakan tempat berdirinya kantor-kantor pusat BUMN, perusahaan swasta, dan perusahaan asing.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="b-row-right">
+                                <div class="content-biography pakaian-content">
+                                    <img src="./assets/image/Jakarta.png" class="biography-pakaian" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slider-content-1">
+                            <div class="b-row-left">
+                                <div class="content-biography title-biography">
+                                    <span class="biography-subtitle">GET TO KNOW</span>
+                                    <span class="biography-title">
+                                        <span class="biography-title">Yogyakarta</span>
+                                    </span>
+                                </div>
+                                
+                                <div class="content-biography pakaian-content">
+                                    <img src="./assets/image/Yogyakarta.png" class="biography-pakaian-hid" alt="">
+                                </div>
+
+                                <div class="content-biography paragraph-content">
+                                    <p class="biography-paragraph">
+                                        Daerah Istimewa Yogyakarta adalah Daerah Istimewa setingkat provinsi di Indonesia yang merupakan peleburan Negara Kesultanan 
+                                        Yogyakarta dan Negara Kadipaten Paku Alaman. Dikenal sebagai Culture City, Yogyakarta memiliki banyak ornamen khas Jawa.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="b-row-right">
+                                <div class="content-biography pakaian-content">
+                                    <img src="./assets/image/Yogyakarta.png" class="biography-pakaian" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slider-content-1">
+                            <div class="b-row-left">
+                                <div class="content-biography title-biography">
+                                    <span class="biography-subtitle">GET TO KNOW</span>
+                                    <span class="biography-title">
+                                        <span class="biography-title">West Java</span>
+                                    </span>
+                                </div>
+                                
+                                <div class="content-biography pakaian-content">
+                                    <img src="./assets/image/Jawa-barat.png" class="biography-pakaian-hid" alt="">
+                                </div>
+
+                                <div class="content-biography paragraph-content">
+                                    <p class="biography-paragraph">
+                                        Jawa Barat adalah sebuah provinsi di Indonesia, ibu kotanya berada di kota Bandung. 
+                                        Penduduk asli provinsi Jawa Barat ada suku Sunda, dan Cirebon, dengan mayoritas penduduk adalah suku Sunda.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="b-row-right">
+                                <div class="content-biography pakaian-content">
+                                    <img src="./assets/image/Jawa-barat.png" class="biography-pakaian" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slider-content-1">
+                            <div class="b-row-left">
+                                <div class="content-biography title-biography">
+                                    <span class="biography-subtitle">GET TO KNOW</span>
+                                    <span class="biography-title">
+                                        <span class="biography-title">Banten</span>
+                                    </span>
+                                </div>
+                                
+                                <div class="content-biography pakaian-content">
+                                    <img src="./assets/image/banten.png" class="biography-pakaian-hid" alt="">
+                                </div>
+
+                                <div class="content-biography paragraph-content">
+                                    <p class="biography-paragraph">
+                                        Banten adalah sebuah provinsi di Pulau Jawa, Indonesia. Provinsi terletak di paling barat di Pulau Jawa. 
+                                        Ibukota dan pusat pemerintahannya berada di Kota Serang. Suku aslinya adalah Suku Banten dan Suku Sunda.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="b-row-right">
+                                <div class="content-biography pakaian-content">
+                                    <img src="./assets/image/banten.png" class="biography-pakaian" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sliders-actions sh">
+                            <button class="sliders-button sh" id="sliders-button--prev" aria-label="Previous slide">
+                                <img src="./assets/icon/arrow-left-hover.png" alt="">
+                            </button>
+                            <button class="sliders-button sh" id="sliders-button--next" aria-label="Previous slide">
+                                <img src="./assets/icon/arrow-right-hover.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- MOBILE DEVICE -->
+                    <div class="row slider-1 biography-row-2">
+
+                        <div class="sliders-actions-1 hid">
+                            <button class="sliders-button hid" id="sliders-button--prev-1" aria-label="Previous slide">
+                                <img src="./assets/icon/arrow-left-hover.png" alt="">
+                            </button>
+                        </div>
+
+                        <div class="slider-content-2 slider-content-2--visible">
+                            <div class="b-row-left">
+                                <div class="content-biography title-biography">
+                                    <span class="biography-subtitle">GET TO KNOW</span>
+                                    <span class="biography-title">
+                                        <span class="biography-title">Central Java</span>
+                                    </span>
+                                </div>
+                                <div class="content-biography pakaian-content">
+                                    <img src="./assets/image/Jawa-tengah.png" class="biography-pakaian-hid" alt="">
+                                </div>
+                                <div class="content-biography paragraph-content">
+                                    <p class="biography-paragraph">
+                                        Jawa Tengah adalah sebuah provinsi Indonesia yang terletak di bagian tengah Pulau Jawa dengan ibukota Semarang.
+                                        Jawa Tengah dikenal sebagai "jantung" budaya Jawa. Karena memiliki banyak budaya yang membuat provinsi Jawa Tengah 
+                                        tampak menakjubkan.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="b-row-right">
+                                <div class="content-biography pakaian-content">
+                                    <img src="./assets/image/Jawa-tengah.png" class="biography-pakaian" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-content-2">
+                            <div class="b-row-left">
+                                <div class="content-biography title-biography">
+                                    <span class="biography-subtitle">GET TO KNOW</span>
+                                    <span class="biography-title">
+                                        <span class="biography-title">East Java</span>
+                                    </span>
+                                </div>
+                                
+                                <div class="content-biography pakaian-content">
+                                    <img src="./assets/image/Jawa-timur.png" class="biography-pakaian-hid" alt="">
+                                </div>
+
+                                <div class="content-biography paragraph-content">
+                                    <p class="biography-paragraph">
+                                        Jawa Timur adalah sebuah provinsi di anggota timur Pulau Jawa, Indonesia. Ibukota terletak di Surabaya. 
+                                        Jawa Timur memiliki wilayah terluas di selang 6 provinsi di Pulau Jawa, dan memiliki jumlah penduduk 
+                                        terbanyak kedua di Indonesia setelah Jawa Barat.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="b-row-right">
+                                <div class="content-biography pakaian-content">
+                                    <img src="./assets/image/Jawa-timur.png" class="biography-pakaian" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-content-2">
+                            <div class="b-row-left">
+                                <div class="content-biography title-biography">
+                                    <span class="biography-subtitle">GET TO KNOW</span>
+                                    <span class="biography-title">
+                                        <span class="biography-title">Jakarta</span>
+                                    </span>
+                                </div>
+                                <div class="b-row-right">
+                                    <div class="content-biography pakaian-content">
+                                        <img src="./assets/image/Jakarta.png" class="biography-pakaian-hid" alt="">
+                                    </div>
+                                </div>
+                                <div class="content-biography paragraph-content">
+                                    <p class="biography-paragraph">
+                                        Jakarta atau DKI Jakarta adalah ibu kota negara dan kota terbesar di Indonesia. Sebagai pusat bisnis, politik, 
+                                        dan kebudayaan, Jakarta merupakan tempat berdirinya kantor-kantor pusat BUMN, perusahaan swasta, dan perusahaan asing.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="b-row-right">
+                                <div class="content-biography pakaian-content">
+                                    <img src="./assets/image/Jakarta.png" class="biography-pakaian" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slider-content-2">
+                            <div class="b-row-left">
+                                <div class="content-biography title-biography">
+                                    <span class="biography-subtitle">GET TO KNOW</span>
+                                    <span class="biography-title">
+                                        <span class="biography-title">Yogyakarta</span>
+                                    </span>
+                                </div>
+                                <div class="b-row-right">
+                                    <div class="content-biography pakaian-content">
+                                        <img src="./assets/image/Yogyakarta.png" class="biography-pakaian-hid" alt="">
+                                    </div>
+                                </div>
+                                <div class="content-biography paragraph-content">
+                                    <p class="biography-paragraph">
+                                        Daerah Istimewa Yogyakarta adalah Daerah Istimewa setingkat provinsi di Indonesia yang merupakan peleburan Negara Kesultanan 
+                                        Yogyakarta dan Negara Kadipaten Paku Alaman. Dikenal sebagai Culture City, Yogyakarta memiliki banyak ornamen khas Jawa.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="b-row-right">
+                                <div class="content-biography pakaian-content">
+                                    <img src="./assets/image/Yogyakarta.png" class="biography-pakaian" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slider-content-2">
+                            <div class="b-row-left">
+                                <div class="content-biography title-biography">
+                                    <span class="biography-subtitle">GET TO KNOW</span>
+                                    <span class="biography-title">
+                                        <span class="biography-title">West Java</span>
+                                    </span>
+                                </div>
+                                <div class="b-row-right">
+                                    <div class="content-biography pakaian-content">
+                                        <img src="./assets/image/Jawa-barat.png" class="biography-pakaian-hid" alt="">
+                                    </div>
+                                </div>
+                                <div class="content-biography paragraph-content">
+                                    <p class="biography-paragraph">
+                                        Jawa Barat adalah sebuah provinsi di Indonesia, ibu kotanya berada di kota Bandung. 
+                                        Penduduk asli provinsi Jawa Barat ada suku Sunda, dan Cirebon, dengan mayoritas penduduk adalah suku Sunda.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="b-row-right">
+                                <div class="content-biography pakaian-content">
+                                    <img src="./assets/image/Jawa-barat.png" class="biography-pakaian" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slider-content-2">
+                            <div class="b-row-left">
+                                <div class="content-biography title-biography">
+                                    <span class="biography-subtitle">GET TO KNOW</span>
+                                    <span class="biography-title">
+                                        <span class="biography-title">Banten</span>
+                                    </span>
+                                </div>
+                                <div class="b-row-right">
+                                    <div class="content-biography pakaian-content">
+                                        <img src="./assets/image/banten.png" class="biography-pakaian-hid" alt="">
+                                    </div>
+                                </div>
+                                <div class="content-biography paragraph-content">
+                                    <p class="biography-paragraph">
+                                        Banten adalah sebuah provinsi di Pulau Jawa, Indonesia. Provinsi terletak di paling barat di Pulau Jawa. 
+                                        Ibukota dan pusat pemerintahannya berada di Kota Serang. Suku aslinya adalah Suku Banten dan Suku Sunda.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="b-row-right">
+                                <div class="content-biography pakaian-content">
+                                    <img src="./assets/image/banten.png" class="biography-pakaian" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="sliders-actions-1 hid">
+                            <button class="sliders-button hid" id="sliders-button--next-1" aria-label="Previous slide">
+                                <img src="./assets/icon/arrow-right-hover.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== FOOTER ====================-->
+        <section class="footer home-footer">
+            <footer class="footer section">
+                <div class="footer__container container grid">
+                    <div class="footer__content">
+                        <a href="#" class="footer__logo">
+                            artventure
+                        </a>
+
+                        <p class="footer__description">Jelajahi keseniannya <br> dan miliki hasil karyanya.</p>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">
+                            <a href="#" class="link__footer-title">Home</a>
+                        </h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <span class="footer__link">Jumbotron</span>
+                            </li>
+                            <li>
+                                <span class="footer__link">Maps</span>
+                            </li>
+                            <li>
+                                <span class="footer__link">Slider</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">
+                            <a href="./views/gallery.html" class="link__footer-title">Gallery</a>
+                        </h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <span class="footer__link">Jumbotron</span>
+                            </li>
+                            <li>
+                                <span class="footer__link">Gallery Batik</span>
+                            </li>
+                            <li>
+                                <span class="footer__link">Shop Card</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">
+                            <a href="./views/shop.html" class="link__footer-title">Shop</a>
+                        </h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <span class="footer__link">Music Shop</span>
+                            </li>
+                            <li>
+                                <span class="footer__link">Batik Shop</span>
+                            </li>
+                            <li>
+                                <span class="footer__link">Discount Shop</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">
+                            <a href="./views/our-team.html" class="link__footer-title">Our team</a>
+                        </h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <span class="footer__link">Team</span>
+                            </li>
+                            <li>
+                                <span class="footer__link">Description</span>
+                            </li>
+                            <li>
+                                <span class="footer__link">Card</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <span class="footer__copy">Copyright ©2021 NeoTech</span>
+
+                <img src="./assets/image/wayang1-footer.png" alt="" class="footer__img-one">
+                <img src="./assets/image/wayang2-footer.png" alt="" class="footer__img-two">
+            </footer>
+        </section>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
